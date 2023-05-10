@@ -142,3 +142,17 @@
     gap: 40px;
   }
 }
+
+@media screen and (min-width: 319px) and (max-width: 769px) {
+  .container {
+    width: 320px;
+  }
+
+  .header-link{
+    display: none;
+  }
+
+  .active{
+    display: none;
+  }
+}
